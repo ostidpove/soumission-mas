@@ -1,7 +1,7 @@
 {
   "name": "Soumission MAS",
   "short_name": "Soumission MAS",
-  "description": "Soumissions architecturales MAS inc. : pièces, procédés, minimums, extras et rapport PDF pour l'ERP.",
+  "description": "Finition de surface MAS inc. : pièces, procédés, matériel, minimums, extras et rapport PDF pour l'ERP.",
   "lang": "fr-CA",
   "start_url": "./",
   "scope": "./",

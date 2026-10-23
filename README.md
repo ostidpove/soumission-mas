@@ -1,6 +1,6 @@
 # Soumission MAS
 
-App web de soumission architecturale pour MAS inc. (usage interne).
+App web de finition de surface pour MAS inc. (usage interne).
 
 - Ouvrir sur iPhone dans Safari, puis Partager > « Sur l'écran d'accueil ».
 - Les données (procédés, minimums, extras, projet) restent sur l'appareil; aucune donnée de prix n'est dans ce dépôt.
