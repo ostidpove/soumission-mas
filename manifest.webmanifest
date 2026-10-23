@@ -1,0 +1,17 @@
+{
+  "name": "Soumission MAS",
+  "short_name": "Soumission MAS",
+  "description": "Soumissions architecturales MAS inc. : pièces, procédés, minimums, extras et rapport PDF pour l'ERP.",
+  "lang": "fr-CA",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F3F3F1",
+  "theme_color": "#1B1F24",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
