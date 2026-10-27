@@ -72,7 +72,7 @@ input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible{ou
 .unitbox b{font-size:14px;white-space:nowrap}
 .hint{font-weight:500;color:var(--muted)}
 button{font:inherit;cursor:pointer}
-.btn{height:52px;border:0;border-radius:14px;background:var(--primary);color:var(--primary-ink);font-size:16px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:8px;padding:0 18px;text-decoration:none;width:100%}
+.btn{box-sizing:border-box;height:52px;border:0;border-radius:14px;background:var(--primary);color:var(--primary-ink);font-size:16px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:8px;padding:0 18px;text-decoration:none;width:100%}
 .btn.accent{background:var(--accent);color:var(--accent-ink)}
 .btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
 .btn.danger{background:var(--danger);color:var(--surface)}
@@ -233,7 +233,7 @@ it:{
  hello:"Ciao,", changeUser:"Cambia utente", newProject:"Nuovo progetto", replacesLast:"Sostituisce l'ultimo progetto",
  openLast:"Apri l'ultimo progetto", noProject:"Nessun progetto in corso.", settings:"Impostazioni", client:"Cliente",
  contact:"Referente del cliente", projectName:"Nome del progetto", date:"Data", dateDefault:"Data di oggi come predefinita",
- createProject:"Crea il progetto", home:"Home", confirmTitle:"Sostituire l'ultimo progetto?",
+ createProject:"Crea il progetto", home:"Inizio", confirmTitle:"Sostituire l'ultimo progetto?",
  confirmText:"Il progetto {p} di {c} verrà eliminato definitivamente. Non potrà essere recuperato.", yesReplace:"Sì, sostituisci", cancel:"Annulla",
  errProject:"Compila il cliente e il nome del progetto.", responsible:"Referente", pieces:"Pezzi", addPiece:"Aggiungi un pezzo", edit:"Modifica",
  del:"Elimina", qtyReq:"Quantità richiesta", qtyReqShort:"Qtà richiesta", exportBtn:"Esporta",
@@ -262,8 +262,8 @@ it:{
  none:"Nessuno", extras:"Extra", add:"Aggiungi", noExtras:"Nessun extra.", extraNew:"Nuovo extra", extraEdit:"Modifica l'extra",
  extraName:"Nome dell'extra", basedOn:"In base a", cond:"Condizione", between:"Da… a…", orMore:"o più", orLess:"meno di", boundsNote:"Limite inferiore inclusa, limite superiore esclusa. Es.: «da 12 a 18» copre da 12 ft fino a 17,999 ft; 18 ft va in «18 o più».", from:"Da", to:"a", value:"Valore",
  amount:"Importo dell'extra", saveExtra:"Salva l'extra", errExtra:"Compila il nome, il valore o i valori e l'importo.", savedOk:"Salvato.",
- backup:"Backup", backupSub:"Conserva una copia di processi, restrizioni ed extra, nel caso il telefono cancelli i dati.",
- backupSave:"Salva un backup", backupRestore:"Ripristina un backup", restored:"Backup ripristinato.", restoreFail:"Questo file non è un backup valido.",
+ backup:"Copia di sicurezza", backupSub:"Conserva una copia di processi, restrizioni ed extra, nel caso il telefono cancelli i dati.",
+ backupSave:"Salva una copia di sicurezza", backupRestore:"Ripristina una copia di sicurezza", restored:"Copia di sicurezza ripristinata.", restoreFail:"Questo file non è una copia di sicurezza valida.",
  exportTitle:"Esporta", pdfLang:"Lingua del PDF", priceMode:"Prezzo mostrato nel PDF", perPiece:"Per estruso", perFt:"Al piede", perM:"Al metro",
  priceModeNote:"Qualunque sia l'unità usata per inserire i pezzi.", grandTotal:"Totale generale del progetto", createPdf:"Crea e condividi il PDF",
  shareNote:"Si apre il menu di condivisione del telefono con il PDF: scegli Mail, Messaggi o un'altra app.", subjectLabel:"Oggetto da incollare nell'email",
